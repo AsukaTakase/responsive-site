@@ -1,0 +1,84 @@
+@charset "UTF-8";    /* 文字コードの指定 */
+
+@import 'https://fonts.googleapis.com/css?family=Abel';    /* Google Fonts用のCSSを読み込み */
+
+html
+{
+    font-size: 62.5%;
+}
+
+
+body{
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    letter-spacing: .1em;
+    color: #000;
+    background-color: #fff;
+}
+
+
+
+img .top-image {
+    max-width: 100%;
+    height: 500px ;
+}
+
+body {
+    margin: 0;
+}
+
+.box1 {
+    border:solid 3px #ff0000;
+    margin: 20px;
+}
+
+.box2 {
+    border:solid 3px #4169e1;
+    margin: 20px;
+}
+
+.box3 {
+    border:solid 3px #008000;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #a3d6cc;
+}
+
+.button1 {
+    color: #fff;
+    background-color:#009e9f;
+    border-radius: 5px;
+}
+
+.box-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+  .box-wrap {
+    flex-direction: column;
+  }
+}
+
+body {
+    max-width: 100%;
+}
