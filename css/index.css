@@ -15,18 +15,9 @@ body{
     letter-spacing: .1em;
     color: #000;
     background-color: #fff;
-}
-
-
-
-img .top-image {
-    max-width: 100%;
-    height: 500px ;
-}
-
-body {
     margin: 0;
 }
+
 
 .box1 {
     border:solid 3px #ff0000;
@@ -81,4 +72,12 @@ footer {
 
 body {
     max-width: 100%;
+}
+
+.top-image{
+  background-image: url("https://pixabay.com/get/eb32b10f2bfc1c3e955d4604ef494193fe76e7d41bb8194192f8c6/england-270038.jpg?attachment、https://pixabay.com/ja/%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9-%E9%A2%A8%E6%99%AF-%E8%8B%B1%E5%9B%BD%E3%81%AE%E6%99%AF%E8%89%B2-%E6%9C%A8-%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3-270038/");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
 }
